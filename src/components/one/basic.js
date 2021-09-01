@@ -3,7 +3,7 @@ import { Formik } from "formik";
 
 const Basic = () => (
   <div>
-    <h1>basic!</h1>
+    <h1>one basic!</h1>
     <Formik
       //**Initial value
       initialValues={{ email: "", password: "" }}
@@ -30,7 +30,7 @@ const Basic = () => (
         //?setTimeoutfor show result
         setTimeout(() => {
           //?alert for test
-          console.log(values); //{email: "mohamadzareai@gmail.com", password: "cece"}
+          // console.log(values); //{email: "mohamadzareai@gmail.com", password: "cece"}
           alert(JSON.stringify(values, null, 2));
           setSubmitting(false);
         }, 400);

@@ -13,11 +13,14 @@ const SignupForm = () => {
     },
   });
   return (
-    //handle submit for formik
+    //handle submit on formik
+
     <form onSubmit={formik.handleSubmit}>
-      <label htmlFor="email">Email Address</label>
+      <h2>three</h2>
+      <label htmlFor="emails">Email Address</label>
       <input
-        id="email"
+      //?Be careful when using id ID===htmlFor
+        id="emails"
         name="email"
         type="email"
         onChange={formik.handleChange}

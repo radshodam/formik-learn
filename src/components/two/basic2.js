@@ -5,7 +5,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 
 const Basic2 = () => (
   <div>
-    <h1>Any place in your app!</h1>
+    <h1>two Any place in your app!</h1>
     <Formik
       //**Initial value
 
